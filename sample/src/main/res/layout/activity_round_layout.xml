@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".RoundLayoutActivity">
 
 
@@ -11,10 +12,10 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:gl_backgroundColor="@color/light_blue_400"
-        app:gl_glowColor="@color/material_dynamic_secondary10"
+        app:gl_glowColor="@color/light_blue_400"
         app:gl_glowWidth="10dp"
         app:gl_gradientColor="@color/purple_700"
-        app:gl_strokeColor="@color/material_dynamic_neutral0"
+        app:gl_strokeColor="@color/light_blue_400"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.5"

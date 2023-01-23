@@ -99,7 +99,7 @@ abstract class GlLayout : ConstraintLayout {
         // mode
         _isStroke = a.getBoolean(R.styleable.GlLayout_gl_strokeVisible, _isStroke)
         _isGlow = a.getBoolean(R.styleable.GlLayout_gl_glowVisible, _isGlow)
-        _gradientMode = a.getInt(R.styleable.GlLayout_gl_gradient_mode, _gradientMode)
+        _gradientMode = a.getInt(R.styleable.GlLayout_gl_gradientMode, _gradientMode)
 
         a.recycle()
 
