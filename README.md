@@ -1,11 +1,9 @@
 # GlowView
 
----
 Button and layout with glow effects
 
 ## Feature
 
----
 Base
 
 * Round corner button
@@ -22,7 +20,6 @@ Effect
 
 ## Sample
 
----
 <img src="image/sample_round_button.png" width="300px" height="450px" title="sample round button" alt="sample round button"></img>
 <img src="image/sample_cut_button.png" width="300px" height="450px" title="sample round button" alt="sample round button"></img><br>
 
@@ -31,7 +28,6 @@ Effect
 
 ## size
 
----
 view size = xml size(dynamic) - glow size(dynamic)
 
 Example
@@ -41,8 +37,6 @@ Example
 
 
 ## Attribute
-
----
 
 Common
 
@@ -73,7 +67,3 @@ Cut corner
 |        | gl_leftBottomCorner  | Left bottom corner size (Default 10dp)  |
 |        | gl_rightTopCorner    | Right top corner size (Default 10dp)    |
 |        | gl_rightBottomCorner | Right bottom corner size (Default 10dp) |
-
-
----
-
