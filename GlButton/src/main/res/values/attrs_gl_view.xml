@@ -7,7 +7,7 @@
     <attr name="gl_glowWidth" format="dimension" />
     <attr name="gl_strokeVisible" format="boolean" />
     <attr name="gl_glowVisible" format="boolean" />
-    <attr name="gl_gradient_mode" format="enum">
+    <attr name="gl_gradientMode" format="enum">
         <enum name="vertical" value="0" />
         <enum name="horizontal" value="1" />
         <enum name="radial" value="2" />
@@ -29,7 +29,7 @@
         <attr name="gl_glowWidth" />
         <attr name="gl_strokeVisible" />
         <attr name="gl_glowVisible" />
-        <attr name="gl_gradient_mode"/>
+        <attr name="gl_gradientMode"/>
     </declare-styleable>
 
     <declare-styleable name="GlRoundButton">
@@ -52,7 +52,7 @@
         <attr name="gl_glowWidth" />
         <attr name="gl_strokeVisible" />
         <attr name="gl_glowVisible" />
-        <attr name="gl_gradient_mode"/>
+        <attr name="gl_gradientMode"/>
     </declare-styleable>
 
     <declare-styleable name="GlRoundLayout">

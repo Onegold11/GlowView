@@ -102,7 +102,7 @@ abstract class GlButton: AppCompatButton {
         // mode
         _isStroke = a.getBoolean(R.styleable.GlButton_gl_strokeVisible, _isStroke)
         _isGlow = a.getBoolean(R.styleable.GlButton_gl_glowVisible, _isGlow)
-        _gradientMode = a.getInt(R.styleable.GlButton_gl_gradient_mode, _gradientMode)
+        _gradientMode = a.getInt(R.styleable.GlButton_gl_gradientMode, _gradientMode)
 
         a.recycle()
 

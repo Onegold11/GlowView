@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".CutLayoutActivity">
 
     <com.onegold.glbutton.ui.view.layout.GlCutLayout
@@ -11,9 +12,13 @@
         android:layout_height="0dp"
         app:gl_backgroundColor="@color/light_blue_400"
         app:gl_gradientColor="@color/purple_700"
-        app:gl_strokeColor="@color/material_dynamic_neutral0"
-        app:gl_glowColor="@color/material_dynamic_secondary10"
+        app:gl_strokeColor="@color/light_blue_400"
+        app:gl_glowColor="@color/light_blue_400"
         app:gl_glowWidth="10dp"
+        app:gl_leftTopCorner="20dp"
+        app:gl_rightTopCorner="40dp"
+        app:gl_leftBottomCorner="40dp"
+        app:gl_rightBottomCorner="20dp"
         app:layout_constraintWidth_percent="0.5"
         app:layout_constraintHeight_percent="0.5"
         app:layout_constraintStart_toStartOf="parent"

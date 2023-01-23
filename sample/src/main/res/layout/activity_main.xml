@@ -13,6 +13,8 @@
         android:id="@+id/btn_round_button"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:text="Round button"
+        android:textColor="@color/white"
         app:gl_backgroundColor="@android:color/holo_red_light"
         app:gl_glowColor="@android:color/holo_red_dark"
         app:gl_gradientColor="@android:color/holo_orange_light"
@@ -23,6 +25,8 @@
         android:id="@+id/btn_cut_button"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:text="Cut button"
+        android:textColor="@color/white"
         app:gl_backgroundColor="@android:color/holo_red_light"
         app:gl_glowColor="@android:color/holo_red_dark"
         app:gl_gradientColor="@android:color/holo_orange_light"
@@ -30,7 +34,6 @@
 
 
     <com.onegold.glbutton.ui.view.layout.GlRoundLayout
-        android:id="@+id/btn_round_layout"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         app:gl_backgroundColor="@android:color/holo_blue_dark"
@@ -39,8 +42,11 @@
         app:gl_gradientColor="@android:color/holo_blue_bright">
 
         <Button
+            android:id="@+id/btn_round_layout"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            android:text="Round layout"
+            android:textColor="@color/white"
             app:layout_constraintHeight_percent="0.8"
             app:layout_constraintWidth_percent="0.8"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -52,7 +58,6 @@
 
 
     <com.onegold.glbutton.ui.view.layout.GlCutLayout
-        android:id="@+id/btn_cut_layout"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         app:gl_backgroundColor="@android:color/holo_blue_dark"
@@ -61,8 +66,11 @@
         app:gl_gradientColor="@android:color/holo_blue_bright">
 
         <Button
+            android:id="@+id/btn_cut_layout"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            android:text="Cut layout"
+            android:textColor="@color/white"
             app:layout_constraintHeight_percent="0.8"
             app:layout_constraintWidth_percent="0.8"
             app:layout_constraintBottom_toBottomOf="parent"
