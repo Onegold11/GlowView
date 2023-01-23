@@ -1,0 +1,68 @@
+<resources>
+    <attr name="gl_backgroundColor" format="color" />
+    <attr name="gl_gradientColor" format="color" />
+    <attr name="gl_strokeColor" format="color" />
+    <attr name="gl_glowColor" format="color" />
+    <attr name="gl_strokeWidth" format="dimension" />
+    <attr name="gl_glowWidth" format="dimension" />
+    <attr name="gl_strokeVisible" format="boolean" />
+    <attr name="gl_glowVisible" format="boolean" />
+    <attr name="gl_gradient_mode" format="enum">
+        <enum name="vertical" value="0" />
+        <enum name="horizontal" value="1" />
+        <enum name="radial" value="2" />
+    </attr>
+
+    <attr name="gl_cornerRadius" format="dimension" />
+
+    <attr name="gl_leftTopCorner" format="dimension" />
+    <attr name="gl_leftBottomCorner" format="dimension" />
+    <attr name="gl_rightTopCorner" format="dimension" />
+    <attr name="gl_rightBottomCorner" format="dimension" />
+
+    <declare-styleable name="GlButton">
+        <attr name="gl_backgroundColor" />
+        <attr name="gl_gradientColor" />
+        <attr name="gl_strokeColor" />
+        <attr name="gl_glowColor" />
+        <attr name="gl_strokeWidth" />
+        <attr name="gl_glowWidth" />
+        <attr name="gl_strokeVisible" />
+        <attr name="gl_glowVisible" />
+        <attr name="gl_gradient_mode"/>
+    </declare-styleable>
+
+    <declare-styleable name="GlRoundButton">
+        <attr name="gl_cornerRadius" />
+    </declare-styleable>
+
+    <declare-styleable name="GlCutButton">
+        <attr name="gl_leftTopCorner" />
+        <attr name="gl_leftBottomCorner" />
+        <attr name="gl_rightTopCorner" />
+        <attr name="gl_rightBottomCorner" />
+    </declare-styleable>
+
+    <declare-styleable name="GlLayout">
+        <attr name="gl_backgroundColor" />
+        <attr name="gl_gradientColor" />
+        <attr name="gl_strokeColor" />
+        <attr name="gl_glowColor" />
+        <attr name="gl_strokeWidth" />
+        <attr name="gl_glowWidth" />
+        <attr name="gl_strokeVisible" />
+        <attr name="gl_glowVisible" />
+        <attr name="gl_gradient_mode"/>
+    </declare-styleable>
+
+    <declare-styleable name="GlRoundLayout">
+        <attr name="gl_cornerRadius" />
+    </declare-styleable>
+
+    <declare-styleable name="GlCutLayout">
+        <attr name="gl_leftTopCorner" />
+        <attr name="gl_leftBottomCorner" />
+        <attr name="gl_rightTopCorner" />
+        <attr name="gl_rightBottomCorner" />
+    </declare-styleable>
+</resources>
