@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.onegold.glbutton.ui.view.button.GlRoundButton
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:text="test"
+        app:gl_cornerRadius="10dp"
+        app:gl_glowVisible="true"
+        app:gl_glowWidth="10dp"
+        app:gl_strokeColor="@color/light_blue_400"
+        app:gl_strokeWidth="50dp" />
+
+</FrameLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="50dp"
+    tools:context=".MainActivity">
+
+    <com.onegold.glbutton.ui.view.button.GlRoundButton
+        android:id="@+id/btn_round_button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:gl_backgroundColor="@android:color/holo_red_light"
+        app:gl_glowColor="@android:color/holo_red_dark"
+        app:gl_gradientColor="@android:color/holo_orange_light"
+        app:gl_strokeColor="@android:color/holo_orange_light" />
+
+
+    <com.onegold.glbutton.ui.view.button.GlCutButton
+        android:id="@+id/btn_cut_button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:gl_backgroundColor="@android:color/holo_red_light"
+        app:gl_glowColor="@android:color/holo_red_dark"
+        app:gl_gradientColor="@android:color/holo_orange_light"
+        app:gl_strokeColor="@android:color/holo_orange_light" />
+
+
+    <com.onegold.glbutton.ui.view.layout.GlRoundLayout
+        android:id="@+id/btn_round_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:gl_backgroundColor="@android:color/holo_blue_dark"
+        app:gl_glowColor="@android:color/holo_blue_dark"
+        app:gl_strokeColor="@android:color/holo_blue_bright"
+        app:gl_gradientColor="@android:color/holo_blue_bright">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="0.8"
+            app:layout_constraintWidth_percent="0.8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </com.onegold.glbutton.ui.view.layout.GlRoundLayout>
+
+
+    <com.onegold.glbutton.ui.view.layout.GlCutLayout
+        android:id="@+id/btn_cut_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:gl_backgroundColor="@android:color/holo_blue_dark"
+        app:gl_glowColor="@android:color/holo_blue_dark"
+        app:gl_strokeColor="@android:color/holo_blue_bright"
+        app:gl_gradientColor="@android:color/holo_blue_bright">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="0.8"
+            app:layout_constraintWidth_percent="0.8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </com.onegold.glbutton.ui.view.layout.GlCutLayout>
+
+</LinearLayout>
